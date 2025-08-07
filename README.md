@@ -14,7 +14,7 @@ This repository contains code for reconstructing full-field strain measurements 
 - pandas, numpy, matplotlib
 
 ## How to Use
-1. Upload your experimental strain data (e.g., from Excel)
+1. Upload the experimental strain data (e.g., from Excel)
 2. Run the notebook to perform PCA and select the most informative sensors
 3. Train the ANN model using the selected sensors as inputs
 4. Visualize prediction accuracy and evaluate reconstruction error
@@ -23,7 +23,7 @@ This repository contains code for reconstructing full-field strain measurements 
 The Excel files used for the strain reconstruction experiments are uploaded to the [`Data/`](./Data/) folder. These include raw and processed strain datasets for symmetric and asymmetric bending cases.
 
 ## Important Note
-This code is designed for strain datasets that follow a structure similar to our experimental setup (e.g., morphing wing data). If you're using a different dataset—such as one with different sensor locations, coordinate systems, or loading conditions—you may need to modify the data preprocessing, PCA settings, or model input/output selection accordingly.
+This code is designed for strain datasets that follow a structure similar to our experimental setup (e.g., morphing wing data). If you're using a different dataset such as one with different sensor locations, coordinate systems, or loading conditions, you may need to modify the data preprocessing, PCA settings, or model input/output selection accordingly.
 
 ## License
 MIT License
