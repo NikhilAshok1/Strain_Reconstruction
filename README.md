@@ -19,6 +19,9 @@ This repository contains code for reconstructing full-field strain measurements 
 3. Train the ANN model using the selected sensors as inputs
 4. Visualize prediction accuracy and evaluate reconstruction error
 
+## Data
+The Excel files used for the strain reconstruction experiments are uploaded to the [`Data/`](./Data/) folder. These include raw and processed strain datasets for symmetric and asymmetric bending cases.
+
 ## Important Note
 This code is designed for strain datasets that follow a structure similar to our experimental setup (e.g., morphing wing data). If you're using a different dataset—such as one with different sensor locations, coordinate systems, or loading conditions—you may need to modify the data preprocessing, PCA settings, or model input/output selection accordingly.
 
@@ -26,5 +29,5 @@ This code is designed for strain datasets that follow a structure similar to our
 MIT License
 
 ## Citation
-If you use this code, please cite the following paper:
+If you use this code, please cite the following paper:  
 *“Reconfigurable, Machine Learning-Based Sensor Networks for Real-Time, Adaptive Strain Field Reconstruction of Morphing Wings”, 2025.*
